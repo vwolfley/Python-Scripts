@@ -3,17 +3,11 @@
 #----------------------------
 
 uniqueList = []
-
 def isDuplicate(inValue):
-
   if inValue in uniqueList:
-
     return 1
-
   else:
-
     uniqueList.append(inValue)
-
     return 0
 
 
@@ -21,33 +15,19 @@ def isDuplicate(inValue):
 # Lower Text Box Code
 #-----------------------------
 __esri_field_calculator_splitter__
-
 isDuplicate( !Name! ) #(insert filed to check here)
 
 
-
-
-
 #--------------------------------
-
 # Name:         FindDuplicates.cal
-
 # Purpose:      Find duplicate field values in ArcGIS using Python
-
 #               Finds Duplicates - first one is marked "0" others marked "1"
-
 # Author:       Don Meltz
-
 # Created       03/02/2012
-
 # Copyright:    MIT
-
 # ArcGIS Version:   10.x
-
 # Python Version:   2.6
-
 # INFO:         http://www.donmeltz.com/find-duplicate-field-values-in-arcgis-using-python/
-
 #--------------------------------
 
 
@@ -55,15 +35,9 @@ isDuplicate( !Name! ) #(insert filed to check here)
 # HOW TO USE
 #--------------------------------
 # 1  Add a new `Short Integer`  type field to your attribute table (I usually call mine "Dup").
-
 # 2  Open the field calculator for the new field
-
 # 3  Choose "Python" as the Parser
-
 # 4  Check `Show Codeblock`
-
 # 5  Insert the following code into the `Pre-Logic Script Code:` text box making sure you preserve the indents:
-
 # 6  In the lower text box, insert the following text, replacing `!InsertFieldToCheckHere!` with whichever field you want to check the duplicates for:
-
 # This will populate your new field with 0s and 1s, with the 1s identifying those fields that are duplicates.
