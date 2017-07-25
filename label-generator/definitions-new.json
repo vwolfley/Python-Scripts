@@ -1,22 +1,30 @@
 {
   "label" : [
-    {"name": "bug", "color": "ee0701"},
-    
-    {"name": "enhancement", "color": "5EBEFF"},
-    {"name": "feature", "color": "91ca55"},
-    {"name": "maintenance", "color": "fbca04"},
-    {"name": "optimization", "color": "5EBEFF"},
+    {"name": "Type: Bug", "color": "ee0701"},
+    {"name": "Type: Enhancement", "color": "5EBEFF"},
+    {"name": "Type: Maintenance", "color": "fbca04"},
+    {"name": "Type: Task", "color": "fbca04"},
+    {"name": "Type: Question", "color": "cc317c"},
+    {"name": "Type: Feature", "color": "91ca55"},
+    {"name": "Type: Idea", "color": "91ca55"},
 
-    {"name": "Priority: Critical", "color": "ee0701"},
-    {"name": "Priority: High", "color": "eb6420"},
+    {"name": "Priority: High", "color": "ee0701"},
     {"name": "Priority: Medium", "color": "fbca04"},
     {"name": "Priority: Low", "color": "009800"},
 
-    {"name": "question", "color": "cc317c"},
-    {"name": "discussion", "color": "cc317c"},
+    {"name": "Pending: Discussion", "color": "cc317c"},
+    {"name": "Pending: Changes", "color": "cc317c"},
 
-    {"name": "invalid", "color": "cccccc"},
-    {"name": "wontfix", "color": "cccccc"},
-    {"name": "duplicate", "color": "cccccc"}
+    {"name": "Cat: General", "color": "cc317c"},
+    {"name": "Cat: ui-ux", "color": "cc317c"},
+    {"name": "Cat: Performance", "color": "cc317c"},
+    {"name": "Cat: Data", "color": "cc317c"},
+
+    {"name": "~In-Progress", "color": "cccccc"},
+    {"name": "~Info Needed", "color": "cccccc"},
+    {"name": "~Invalid", "color": "cccccc"},
+    {"name": "~Cannot Reproduce", "color": "cccccc"},
+    {"name": "~Won't-Fix", "color": "cccccc"},
+    {"name": "~Duplicate", "color": "cccccc"}
   ]
 }
