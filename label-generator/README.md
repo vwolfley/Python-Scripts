@@ -4,6 +4,10 @@ This python script will generate the standard set of labels that we use in all o
 
 The definition of the lables you want to create is set within `definitions.json`. The script expects all existing labels to have already been deleted. Errors will be generated if the label it's trying to create already exists. The script will carry on, but it won't overwrite/modify the existing label.
 
+## Cloned/Downloaded ##
+
+*[label-generator link](https://github.com/martinpeck/gh-issue-label-generator.git)
+
 ## Usage ##
 
 - set up a virtual environment (because I said so)
