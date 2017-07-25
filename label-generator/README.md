@@ -6,7 +6,7 @@ The definition of the lables you want to create is set within `definitions.json`
 
 ## Cloned/Downloaded ##
 
-*[label-generator link](https://github.com/martinpeck/gh-issue-label-generator.git)
+* [label-generator link](https://github.com/martinpeck/gh-issue-label-generator.git)
 
 ## Usage ##
 
