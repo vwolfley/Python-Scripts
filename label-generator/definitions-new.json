@@ -1,0 +1,22 @@
+{
+  "label" : [
+    {"name": "bug", "color": "ee0701"},
+    
+    {"name": "enhancement", "color": "5EBEFF"},
+    {"name": "feature", "color": "91ca55"},
+    {"name": "maintenance", "color": "fbca04"},
+    {"name": "optimization", "color": "5EBEFF"},
+
+    {"name": "Priority: Critical", "color": "ee0701"},
+    {"name": "Priority: High", "color": "eb6420"},
+    {"name": "Priority: Medium", "color": "fbca04"},
+    {"name": "Priority: Low", "color": "009800"},
+
+    {"name": "question", "color": "cc317c"},
+    {"name": "discussion", "color": "cc317c"},
+
+    {"name": "invalid", "color": "cccccc"},
+    {"name": "wontfix", "color": "cccccc"},
+    {"name": "duplicate", "color": "cccccc"}
+  ]
+}
