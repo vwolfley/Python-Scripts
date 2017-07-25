@@ -1,12 +1,18 @@
-# GitHub Issue Label Generator
+# Generate Github Labels Examples #
+
+## References
+
+* [npm - git-labelmaker](https://github.com/himynameisdave/git-labelmaker)
+* [git-label-packages](https://github.com/jasonbellamy/git-label-packages)
+* [label-generator link](https://github.com/martinpeck/gh-issue-label-generator.git)
+
+## GitHub Issue Label Generator
 
 This python script will generate the standard set of labels that we use in all of our GitHub issues databases.
 
 The definition of the lables you want to create is set within `definitions.json`. The script expects all existing labels to have already been deleted. Errors will be generated if the label it's trying to create already exists. The script will carry on, but it won't overwrite/modify the existing label.
 
-## Cloned/Downloaded ##
 
-* [label-generator link](https://github.com/martinpeck/gh-issue-label-generator.git)
 
 ## Usage ##
 
